@@ -28,14 +28,14 @@ const PageBodyComponent = () => {
 
       <div style={columnStyles}>
         <ul style={listLeftStyles}>
-          <li style={listItemStyles}><a href="#">A Message From Xuwei Li</a></li>
-          <li style={listItemStyles}><a href="#">Annual & Interim Reports</a></li>
+          <li style={listItemStyles}>V4EX Inc. Brochure <a href="https://twitter.com/v4ex/status/1397235609723412490">English</a> <a href="https://twitter.com/v4ex/status/1397235994018172942">中文</a></li>
+          <li style={listItemStyles}>Annual & Interim Reports</li>
         </ul>
       </div>
       <div style={columnStyles}>
         <ul style={listRightStyles}>
-          <li style={listItemStyles}><a href="#">Seed Funding Financing</a></li>
-          <li style={listItemStyles}><a href="#">Common Stock Information</a></li>
+          <li style={listItemStyles}>Seed Funding Financing <a href="https://twitter.com/v4ex/status/1397288204294758402">English</a> <a href="https://twitter.com/v4ex/status/1397288516699049989">中文</a></li>
+          <li style={listItemStyles}>Common Stock Information</li>
         </ul>
       </div>
       
