@@ -34,7 +34,7 @@ const PageBodyComponent = () => {
       </div>
       <div style={columnStyles}>
         <ul style={listRightStyles}>
-          <li style={listItemStyles}>Seed Funding Financing <a href="https://twitter.com/v4ex/status/1397288204294758402">English</a> <a href="https://twitter.com/v4ex/status/1397288516699049989">中文</a></li>
+          <li style={listItemStyles}>Seed Funding Financing <a href="https://twitter.com/v4ex/status/1397288204294758402">English</a> <a href="https://twitter.com/v4ex/status/1397288516699049989">中文</a> &nbsp;&nbsp;&nbsp; <a href="https://file.v4ex.com/formd.pdf">FORM D</a></li>
           <li style={listItemStyles}>Common Stock Information</li>
         </ul>
       </div>
