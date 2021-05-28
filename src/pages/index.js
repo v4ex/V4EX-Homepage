@@ -25,7 +25,7 @@ const IndexPage = () => {
         <meta name="keywords" content="v4ex, V4EX, V4EX Inc., Penthouse, Sky Penthouse, Skyscraper, Cryptocurrency, Blockchain" />
         <meta name="description" content="The main business of V4EX Inc. is to do acquisitions of sky penthouse of iconic skyscrapers in major cities around the world. Customers use V4EX cryptocurrency as the payment method.
 " />
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "44b132e799cf445fb6a2fb26efcdffed"}'></script>
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "32963782ecff40ec97b4beaccbf97b54"}'></script>
       </Helmet>
       
       <PageHeader />
