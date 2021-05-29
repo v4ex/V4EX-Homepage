@@ -6,6 +6,7 @@ import PageBody from "../components/page-body"
 import PageFooter from "../components/page-footer"
 
 import PartialPatreon from "../components/partial-patreon"
+import PartialContact from "../components/partial-contact"
 
 // Styles
 const mainStyles = {
@@ -37,6 +38,10 @@ const IndexPage = () => {
       <hr />
 
       <PartialPatreon />
+
+      <hr />
+
+      <PartialContact />
 
       <hr />
 
