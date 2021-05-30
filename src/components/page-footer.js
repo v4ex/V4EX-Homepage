@@ -9,7 +9,7 @@ const pageFooterStyles = {
 const PageFooterComponent = () => {
   return (
     <div style={pageFooterStyles}>
-      <p>Copyright &copy; 2021 V4EX Inc.</p>
+      <p>Copyright &copy; {new Date().getFullYear()} V4EX Inc.</p>
     </div>
   )
 }
