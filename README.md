@@ -1,3 +1,3 @@
-# V4EX Inc. Official Website
+# V4EX Inc. Company Official Website
 
-https://www.v4ex.com
+https://v4ex.com
