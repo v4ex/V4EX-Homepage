@@ -23,7 +23,7 @@ const PageFooterComponent = () => {
   return (
     <div style={pageFooterStyles}>
       <p style={backToHomepageStyles}><Link to="/">Back to homepage</Link></p>
-      <p style={copyrightStyles}><a href="https://github.com/v4ex/V4EX-Company/tree/v1.0"><FontAwesomeIcon icon={["fab", "github"]} /></a> Copyright &copy; {new Date().getFullYear()} V4EX Inc.</p>
+      <p style={copyrightStyles}><a href="https://github.com/v4ex/V4EX-Company"><FontAwesomeIcon icon={["fab", "github"]} /></a> Copyright &copy; {new Date().getFullYear()} V4EX Inc.</p>
     </div>
   )
 }

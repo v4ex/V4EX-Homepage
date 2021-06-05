@@ -14,7 +14,7 @@ library.add(fab)
 const PageFooterComponent = () => {
   return (
     <div style={pageFooterStyles}>
-      <p><a href="https://github.com/v4ex/V4EX-Company/tree/v1.0"><FontAwesomeIcon icon={["fab", "github"]} /></a> Copyright &copy; {new Date().getFullYear()} V4EX Inc.</p>
+      <p><a href="https://github.com/v4ex/V4EX-Company"><FontAwesomeIcon icon={["fab", "github"]} /></a> Copyright &copy; {new Date().getFullYear()} V4EX Inc.</p>
     </div>
   )
 }
