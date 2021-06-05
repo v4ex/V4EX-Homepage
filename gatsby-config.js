@@ -7,6 +7,7 @@ module.exports = {
     title: "V4EX Official Website",
   },
   plugins: [
+    "gatsby-plugin-fontawesome-css",
     {
       resolve: `gatsby-source-contentful`,
       options: {
