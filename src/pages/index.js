@@ -34,7 +34,7 @@ const LeftColumn = () => {
     <div className="page-body--left-column">
       <ul style={leftColumnListStyles}>
         <li style={listItemStyles}>V4EX Inc. Brochure <a href="https://twitter.com/v4ex/status/1397235609723412490">English</a> <a href="https://twitter.com/v4ex/status/1397235994018172942">中文</a></li>
-        <li style={listItemStyles}>Annual & Interim Reports</li>
+        <li style={listItemStyles}><Link to="/reports">Annual & Interim Reports</Link></li>
       </ul>
     </div>
   )

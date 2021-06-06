@@ -87,7 +87,7 @@ const CommonStockPage = () => {
     <main style={mainStyles}>
 
       <Helmet>
-        <title>V4EX Inc. | v4ex.com</title>
+        <title>V4EX Inc. Common Stock Information | v4ex.com</title>
         <meta name="keywords" content="Common stock, Stock, v4ex, V4EX, V4EX Inc., Penthouse, Sky Penthouse, Skyscraper, Cryptocurrency, Blockchain" />
         <meta name="description" content="Common stock information of V4EX Inc.." />
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "32963782ecff40ec97b4beaccbf97b54"}'></script>
