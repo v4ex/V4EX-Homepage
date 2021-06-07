@@ -1,5 +1,5 @@
 import * as React from "react"
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import { Link } from "gatsby"
 
 import PageHeader from "../components/page-header"
@@ -8,6 +8,7 @@ import PageFooter from "../components/page-footer"
 
 import PartialPatreon from "../components/partial-patreon"
 import PartialContact from "../components/partial-contact"
+import PartialConfigLinksComponent from "../components/partial-config-links"
 
 // Styles
 const mainStyles = {
@@ -28,12 +29,13 @@ const listItemStyles = {
   marginBottom: 30,
 }
 
+
 // Markup
 const LeftColumn = () => {
   return (
     <div className="page-body--left-column">
       <ul style={leftColumnListStyles}>
-        <li style={listItemStyles}>V4EX Inc. Brochure <a href="https://twitter.com/v4ex/status/1397235609723412490">English</a> <a href="https://twitter.com/v4ex/status/1397235994018172942">中文</a></li>
+        <li style={listItemStyles}>V4EX Inc. Brochure <PartialConfigLinksComponent configKey="V4EX_BROCHURE_LINK" /></li>
         <li style={listItemStyles}><Link to="/reports">Annual & Interim Reports</Link></li>
       </ul>
     </div>
@@ -44,7 +46,7 @@ const RightColumn = () => {
   return (
     <div className="page-body--left-column">
       <ul style={rightColumnListStyles}>
-        <li style={listItemStyles}>Seed Funding Financing <a href="https://twitter.com/v4ex/status/1397288204294758402">English</a> <a href="https://twitter.com/v4ex/status/1397288516699049989">中文</a> &nbsp;&nbsp;&nbsp; <a href="https://file.v4ex.com/formd.pdf">FORM D</a></li>
+        <li style={listItemStyles}>Seed Funding Financing <PartialConfigLinksComponent configKey="V4EX_SEED_FUNDING_FINANCING_LINK" /> &nbsp;&nbsp;&nbsp; <a href="https://file.v4ex.com/formd.pdf">FORM D</a></li>
         <li style={listItemStyles}><Link to="/common-stock">Common Stock Information</Link></li>
       </ul>
     </div>
