@@ -14,7 +14,7 @@ const Billing = () => <p>Billing</p>
 const AccountPage = () => {
   if (!isAuthenticated()) {
     login()
-    return <p>Redirecting to login...</p>
+    return <p>Connecting to Auth0 service ...</p>
   }
 
   const user = getProfile()

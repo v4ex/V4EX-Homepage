@@ -38,7 +38,7 @@ export const login = () => {
   auth.authorize()
 }
 
-const setSession = (cb = () => {}) => (err, authResult) => {
+const setSession = (cb) => (err, authResult) => {
   if (err) {
     navigate("/")
     cb()
@@ -52,17 +52,17 @@ const setSession = (cb = () => {}) => (err, authResult) => {
     tokens.expiresAt = expiresAt
     user = authResult.idTokenPayload
     localStorage.setItem("isLoggedIn", true)
-    navigate("/account")
+
     cb()
   }
 }
 
-export const handleAuthentication = () => {
+export const handleAuthentication = (cb) => {
   if (!isBrowser) {
     return;
   }
 
-  auth.parseHash(setSession())
+  auth.parseHash(setSession(cb))
 }
 
 export const getProfile = () => {
