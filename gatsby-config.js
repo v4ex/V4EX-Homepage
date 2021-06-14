@@ -9,10 +9,12 @@ module.exports = {
   plugins: [
     "gatsby-plugin-fontawesome-css",
     {
-      resolve: "gatsby-source-contentful",
+      resolve: "gatsby-plugin-env-variables",
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        allowList: [
+          "AUTH0_DOMAIN",
+          "AUTH0_CLIENT_ID"
+        ],
       },
     },
     {
@@ -30,6 +32,13 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",

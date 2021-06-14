@@ -7,7 +7,7 @@ const isBrowser = typeof window !== "undefined"
 const auth = isBrowser
   ? new auth0.WebAuth({
       domain: process.env.AUTH0_DOMAIN,
-      clientID: process.env.AUTH0_CLIENTID,
+      clientID: process.env.AUTH0_CLIENT_ID,
       redirectUri: window.location.href.split("/").slice(0, 3).join("/") + "/callback",
       responseType: "token id_token",
       scope: "openid profile email",
