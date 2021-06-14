@@ -76,5 +76,9 @@ export const silentAuth = callback => {
 
 export const logout = () => {
   localStorage.setItem("isLoggedIn", false)
-  auth.logout()
+  const location = window.location
+  const returnTo = location.protocol + "//" + location.hostname+(location.port ? ":" + location.port : "")
+  auth.logout({
+    returnTo: returnTo,
+  })
 }
