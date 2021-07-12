@@ -13,7 +13,8 @@ module.exports = {
       options: {
         allowList: [
           "AUTH0_DOMAIN",
-          "AUTH0_CLIENT_ID"
+          "AUTH0_CLIENT_ID",
+          "LINK_FOOTER_GITHUB",
         ],
       },
     },

@@ -15,9 +15,11 @@ library.add(fab)
 
 // Markup
 const PageFooterComponent = () => {
+  const link = process.env.LINK_FOOTER_GITHUB
+  console.log(link)
   return (
     <div style={pageFooterStyles}>
-      <p><a href="https://github.com/v4ex/V4EX-Homepage"><FontAwesomeIcon icon={["fab", "github"]} /></a> Copyright &copy; {new Date().getFullYear()} V4EX Inc.</p>
+      <p><a href={link}><FontAwesomeIcon icon={["fab", "github"]} /></a> Copyright &copy; {new Date().getFullYear()} V4EX Inc.</p>
     </div>
   )
 }
